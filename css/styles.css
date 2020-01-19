@@ -143,7 +143,7 @@ header .logo {
 header .link:hover,
 header .link:focus {
   color: #1abc9c;
-  }
+}
 
 header .nav-list {
   color: #0f0101;
@@ -160,7 +160,8 @@ header .link {
   padding-left: 10px;
   text-decoration: none;
   color: #0f0101;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms
+    cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav {
@@ -333,15 +334,13 @@ header .link {
 }
 .overlay {
   display: flex;
-  
 }
 .collection-link {
   width: 255px;
   border: 0;
-  
 }
 
-.collection-link::before {  
+.collection-link::before {
   content: '';
   width: 235px;
   height: 260px;
@@ -355,7 +354,7 @@ header .link {
   transition: transform 250ms;
 }
 .collection-link:hover::before,
-.collection-link:focus::before {  
+.collection-link:focus::before {
   transform: translateY(0);
 }
 .collection-descr {
@@ -375,7 +374,8 @@ header .link {
   position: absolute;
   left: 0%;
   top: 87.5%;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms
+    cubic-bezier(0.4, 0, 0.2, 1);
 }
 .collection-price {
   display: flex;
@@ -393,7 +393,8 @@ header .link {
   left: 100%;
   top: 87.5%;
   transform: translateX(-100%);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms
+    cubic-bezier(0.4, 0, 0.2, 1);
 }
 .collection-link:hover .collection-descr {
   background-color: #1abc9c;
@@ -433,7 +434,8 @@ header .link {
   justify-content: flex-end;
   padding-right: 20px;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms
+    cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .new-collectoin .action-button:nth-last-child(1) {
@@ -455,7 +457,7 @@ header .link {
 .new-collectoin .action-button:hover,
 .new-collectoin .action-button:focus {
   background-color: #1abc9c;
-  }
+}
 
 .collection-link:hover .actions,
 .collection-link:focus .actions {
@@ -542,7 +544,8 @@ header .link {
   height: 40px;
   position: absolute;
   color: #ffffff;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms
+    cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .product-price {
@@ -559,7 +562,8 @@ header .link {
   position: absolute;
   left: 78%;
   color: #ffffff;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms
+    cubic-bezier(0.4, 0, 0.2, 1);
 }
 .products-link:hover .products-descr {
   background-color: #1abc9c;
@@ -569,7 +573,6 @@ header .link {
 }
 
 .products-link::before {
-  
   content: '';
   width: 235px;
   height: 260px;
@@ -586,8 +589,6 @@ header .link {
 .products-link:focus::before {
   transform: translateY(0);
 }
-
-
 
 .products .actions {
   display: flex;
@@ -620,7 +621,8 @@ header .link {
   display: flex;
   justify-content: flex-end;
   padding-right: 20px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms
+    cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .products .action-button:nth-last-child(1) {
@@ -716,7 +718,7 @@ header .link {
   line-height: 26px;
   border-radius: 3px;
   border: 0px;
-  }
+}
 .button:hover {
   opacity: 0.6;
 }
@@ -807,11 +809,4 @@ header .link {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   border: 2px solid #fff;
-}
-
-
-/* Animation */
-
-@keyframes moveUp {
-  0%
 }
